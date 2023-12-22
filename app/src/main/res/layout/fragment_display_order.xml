@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DisplayOrderFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+    >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textColor="@color/ua_yellow"
+            android:gravity="center"
+            android:text="Order №"
+            android:id="@+id/text_view_order"
+            android:layout_marginTop="2dp"
+            />
+
+        <TextView
+            android:id="@+id/text_view_model"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/ua_yellow"
+            android:textStyle="bold"
+            android:text="Model: TEST TEST TEST"
+            android:gravity="start"
+            android:layout_weight="1"
+            android:padding="16dp"
+            android:layout_marginTop="2dp"
+            />
+
+        <TextView
+            android:id="@+id/text_view_engine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/ua_yellow"
+            android:textStyle="bold"
+            android:text="Engine: TEST TEST TEST"
+            android:gravity="start"
+            android:layout_weight="1"
+            android:padding="16dp"
+            android:layout_marginTop="2dp"
+            />
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/text_view_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="@color/ua_yellow"
+                android:textStyle="bold"
+                android:text="Color:  Color Color Color Color Color Color Color Color Color Color "
+                android:gravity="start"
+                android:layout_weight="1" />
+
+            <View
+                android:id="@+id/view_color"
+                android:layout_width="50dp"
+                android:layout_height="25dp"
+                android:background="@color/ua_yellow"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/text_view_configuration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/ua_yellow"
+            android:textStyle="bold"
+            android:text="Engine: TEST TEST TEST"
+            android:gravity="start"
+            android:layout_weight="1"
+            android:padding="16dp"
+            android:layout_marginTop="2dp"
+            />
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="@color/ua_yellow"
+                android:textStyle="bold"
+                android:text="Total price:"
+                android:gravity="start"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/text_view_total_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="@color/ua_yellow"
+                android:textStyle="bold"
+                android:text="price"
+                android:gravity="end"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
